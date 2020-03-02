@@ -1,5 +1,5 @@
 *{
-    font-family: 'Faster One', cursive;
+    font-family: 'Comic Sans', cursive;
 
 }
 
@@ -21,7 +21,7 @@ h1 {
 
 #homepage{
   background-image: url(../images/mario.gif);
-  background-size: auto;
+  background-size: cover;
   background-color: rgba(0, 0, 0, 0.3);
   background-blend-mode: darken;
 
@@ -31,7 +31,7 @@ h1 {
 
 #head{
   margin-bottom: 0px;
-  background-color: rgba(199, 0, 57 , 0.4);
+
   font-size: 55px;
 }
 
@@ -45,7 +45,7 @@ h1 {
     color: white;
     padding: 20;
     margin: 50px;
-     font-family: 'Major Mono Display';
+     font-family: "Comic Sans MS", cursive, sans-serif;
     width: 45%;
     font-size: 40px;
 }
@@ -62,7 +62,7 @@ h1 {
 
 .nav ul{
   list-style: none;
-  background: rgba(199, 0, 57 , 0.5);
+
   text-align: center;
   padding: 0: margin 0;
 }
@@ -83,6 +83,6 @@ h1 {
 }
 
 .nav a:hover{
-  background: rgba(199, 0, 57 , 0.75);
+
   transition: 0.4s;
 }

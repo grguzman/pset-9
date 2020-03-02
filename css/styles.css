@@ -4,7 +4,7 @@
 /*Type Selectors*/
 body {
   text-align: center;
-  font-family: "Major Mono Display", monospace;
+  font-family: "Comic Sans MS", cursive, sans-serif;
   background-image: url(../images/tenor.gif);
   background-size:  cover;
   background-color: rgba(0, 0, 0, 0.3);
@@ -19,15 +19,11 @@ body {
   font-weight: bold;
 }
 
-#link:hover{
-  cursor: pointer;
-  font-size: 80px;
-  transition: 0.4s;
-}
+
 
 h1 {
   margin: 0 auto;
-  font-family: "Major Mono Display", monospace;
+  font-family: "Comic Sans MS", cursive, sans-serif;
   font-size: 48px;
   margin: 5%;
   text-shadow: 3px #48E5C2;
@@ -72,17 +68,17 @@ h3 {
 
 .square {
   background-color: #FCFAF9;
-  border: 1px solid rgba(0, 0, 0, 0.75);
+  border: 1px solid grey;
   font-size: 96px;
   height: 150px;
   line-height: 150px;
   user-select: none;
   width: 150px;
-  color :rgba(138, 21, 67 );
+  color : grey;
 }
 
 .square:hover {
-  background-color: lightgray;
+  background-color: powderblue;
   cursor: pointer;
 }
 
@@ -106,7 +102,7 @@ font-weight: bold;
 
 /*ID Selectors*/
 #reset-button {
-  background-color: rgba(199, 0, 57 , 0.5);
+  background-color: powderblue;
   border: 1px solid white;
   color: white;
   font-size: 21px;
@@ -117,7 +113,7 @@ font-weight: bold;
 }
 
 #reset-button:hover {
-  background-color: rgba(255, 255, 255, 0.5);
+  background-color: powderblue;
   color: white;
   cursor: pointer;
 }
@@ -131,7 +127,7 @@ font-weight: bold;
 }
 
 #first_X{
-  background-color: rgba(199, 0, 57 , 0.5);
+  background-color: powderblue;
   border: none;
   color: white;
   padding: 15px 32px;
@@ -145,7 +141,7 @@ font-weight: bold;
 }
 
 #first_O{
-  background-color: rgba(199, 0, 57 , 0.5);
+  background-color: powderblue;
   border: none;
   color: white;
   padding: 15px 32px;
@@ -175,7 +171,7 @@ font-weight: bold;
   border-left: 20px;
   border-right: 20px;
   border-style:  double;
-  background-color: rgba(199, 0, 57 , 0.5);
+  background-color: powderblue;
 }
 #go{
   color: white;
