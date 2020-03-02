@@ -1,0 +1,88 @@
+*{
+    font-family: 'Faster One', cursive;
+
+}
+
+body {
+  text-align: center;
+
+}
+h1 {
+  font-weight: lighter;
+  margin: 0 auto;
+  font-family: 'Faster One', cursive;
+  font-size: 48px;
+  margin: 5%;
+  /* text-shadow: 3px #48E5C2; */
+  color: white;
+  background-color: rgba(0, 0, 0, 0.3);
+  position: : center;
+}
+
+#homepage{
+  background-image: url(../images/mario.gif);
+  background-size: auto;
+  background-color: rgba(0, 0, 0, 0.3);
+  background-blend-mode: darken;
+
+
+}
+
+
+#head{
+  margin-bottom: 0px;
+  background-color: rgba(199, 0, 57 , 0.4);
+  font-size: 55px;
+}
+
+#welcome{
+  background-color: rgba(0, 0, 0 , 0.4);
+  font-size: 55px;
+}
+
+#text{
+    background-color: rgba(0, 0, 0 ,0.6);
+    color: white;
+    padding: 20;
+    margin: 50px;
+     font-family: 'Major Mono Display';
+    width: 45%;
+    font-size: 40px;
+}
+
+#pic1{
+  padding: 0px;
+  background-color: rgba(0, 0, 0 ,0.6);
+  width: 500px;
+  border: 20px;
+  border: 20px solid transparent;
+  border-color:  rgba(199, 0, 57, 0.5);
+}
+
+
+.nav ul{
+  list-style: none;
+  background: rgba(199, 0, 57 , 0.5);
+  text-align: center;
+  padding: 0: margin 0;
+}
+
+.nav li{
+  display: inline-block;
+}
+
+.nav a{
+  text-decoration: none;
+  color: white;
+  display: block;
+  font-size: 25px;
+  line-height: 55px;
+  margin: 0%;
+  text-align: center;
+  width: 300px;
+}
+
+.nav a:hover{
+  background: rgba(199, 0, 57 , 0.75);
+  transition: 0.4s;
+}

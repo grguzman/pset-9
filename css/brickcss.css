@@ -1,0 +1,42 @@
+*{
+
+}
+/*Type Selectors*/
+body {
+  text-align: center;
+  font-family: "Major Mono Display", monospace;
+  background-image: url(../images/brickimg.gif);
+  background-size:  cover;
+  background-color: rgba(0, 0, 0, 0.3);
+  background-blend-mode: darken;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+#link{
+  text-decoration: none;
+  font-size: 70px;
+  color : white;
+  font-weight: bold;
+}
+
+#link:hover{
+  cursor: pointer;
+  font-size: 80px;
+  transition: 0.4s;
+}
+
+h1 {
+  margin: 0 auto;
+  font-family: "Major Mono Display", monospace;
+  font-size: 48px;
+  margin: 5%;
+  text-shadow: 3px #48E5C2;
+}
+
+#gameCanvas {
+  margin: auto;
+  border-radius: 5px;
+}
