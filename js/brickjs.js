@@ -240,7 +240,7 @@ function drawBricks() {
       var arrayIndex = rowColToArrayIndex(eachCol, eachRow);
 
       if(brickGrid[arrayIndex]) {
-        rect((BRICK_WIDTH*eachCol), BRICK_HEIGHT*eachRow, BRICK_WIDTH-BRICK_GAP, BRICK_HEIGHT-BRICK_GAP, 'blue');
+        rect((BRICK_WIDTH*eachCol), BRICK_HEIGHT*eachRow, BRICK_WIDTH-BRICK_GAP, BRICK_HEIGHT-BRICK_GAP, 'grey');
       }//end of brick drawing if true
     }
   }//end of brick for
@@ -248,7 +248,7 @@ function drawBricks() {
 
 function drawAll() {
   //background
-  rect(0, 0, canvas.width, canvas.height, 'rgba(138, 21, 55, 0.5 )');
+  rect(0, 0, canvas.width, canvas.height, 'powderblue');
 
   if(showEndingScreen) {
     if(playerScore == maximumScore) {
@@ -276,7 +276,7 @@ function drawAll() {
 
   var mouseBrickCol = Math.floor(mouseX / BRICK_WIDTH);
   var mouseBrickRow = Math.floor(mouseY / BRICK_HEIGHT);
-  
+
   text(mouseBrickCol + "," + mouseBrickRow + ":" + brickIndexUnderMouse, mouseX, mouseY, 'yellow', '12px Arial');
 
   text("Score: " + playerScore, 10, 30, 'white', 'bold 1.4em monospace', 'left');
