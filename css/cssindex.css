@@ -33,12 +33,12 @@ h1 {
 #head{
   margin-bottom: 0px;
 
-  font-size: 55px;
+  font-size: 25px;
 }
 
 #welcome{
   background-color: rgba(0, 0, 0 , 0.4);
-  font-size: 25px;
+  font-size: 55px;
 }
 
 #text{
